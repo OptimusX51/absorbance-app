@@ -11,7 +11,7 @@ import joblib
 st.write('''
 # Softdrink Absorbance Prediction App
 
-Absorption Prediction App  
+Absorbance Prediction App  
        
 ''')
 
