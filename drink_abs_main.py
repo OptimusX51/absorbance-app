@@ -60,7 +60,6 @@ st.subheader('User Input Features')
 st.write(df)
 
 ###load model file ###############
-test = pd.read_csv('PepsiNewFlavor2.csv')
 with open('joblib_model.pkl', 'rb') as f:
     joblib_model = pickle.load(f)
 
