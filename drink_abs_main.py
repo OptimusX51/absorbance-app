@@ -67,5 +67,5 @@ with open('joblib_model.pkl', 'rb') as f:
 Ypredict = joblib_model.predict(df)
 ###################################
 
-st.subheader('Absorbance Prediction')
+st.subheader('UV Absorbance Prediction (1/cm)')
 st.write(Ypredict)
